@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Tracker</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background-color: #f4f4f4; }
+        
+        /* Navigation Bar */
+        .navbar { background: #222; color: #fff; padding: 15px; display: flex; justify-content: space-between; align-items: center; }
+        .navbar ul { list-style: none; display: flex; }
+        .navbar ul li { margin: 0 15px; }
+        .navbar ul li a { color: white; text-decoration: none; }
+        
+        /* Hero Section */
+        .hero { text-align: center; padding: 50px; background: #fff; }
+        .hero img { width: 50%; max-width: 600px; }
+        .hero video { width: 60%; margin-top: 20px; border-radius: 10px; }
+        
+        /* Features Section */
+        .features { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; padding: 50px; }
+        .feature { margin: 20px; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; }
+        .feature img { width: 100px; margin-bottom: 10px; }
+        
+        /* Contact Section */
+        .contact { background: #222; color: white; padding: 50px; text-align: center; }
+        .contact input, .contact textarea { width: 80%; max-width: 400px; padding: 10px; margin: 10px 0; border-radius: 5px; border: none; }
+        .contact button { padding: 10px 20px; background: #ff9800; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>PFT</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Budget</a></li>
+            <li><a href="#">Goals</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Login/Register</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h2>Take Control of Your Finances</h2>
+        <p>Track your spending, set budgets, and achieve your financial goals.</p>
+        <img src="/mnt/data/Untitled design.png" alt="Finance Tracker Illustration">
+        <video controls>
+            <source src="paragraph text.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <img src="Untitled design (1).png" alt="Budget Planning">
+            <h3>Budget Planning</h3>
+            <p>Set budgets and track your expenses easily.</p>
+        </div>
+        <div class="feature">
+            <img src="Untitled design (2).png" alt="Savings Goals">
+            <h3>Savings Goals</h3>
+            <p>Set financial goals and monitor your progress.</p>
+        </div>
+        <div class="feature">
+            <img src="image.png" alt="Smart Insights">
+            <h3>Smart Insights</h3>
+            <p>Get AI-driven insights for better financial decisions.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us!</p>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button>Send Message</button>
+    </section>
+</body>
+</html>

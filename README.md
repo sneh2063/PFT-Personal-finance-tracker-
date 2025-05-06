@@ -1,2 +1,33 @@
-# PFT-Personal-finance-tracker-
-The Personal Finance Tracker is a comprehensive digital solution designed to help individuals take control of their financial health by efficiently managing income, expenses, savings, and investments. This tool enables users to record transactions, categorize spending, and set budget limits, providing a clear overview of their financial status. With automated expense tracking, customizable budget planning, and real-time visual analytics, users can identify spending trends and make informed financial decisions. Additionally, the tracker includes features such as goal-setting for savings, and investment tracking to support long-term financial planning. Users can set financial milestones, receive personalized insights, and generate detailed financial reports for better money management. Advanced security measures, including data encryption and multi-factor authentication, ensure the safety and privacy of financial information.
+# Login-System 
+
+I've updated the login-System more security.
+1) allow multiple user login
+2) get user password as hash password
+3) check user for the verification status
+
+
+A simple Login System:
+
+User can register an account, before login user need to verify his/her account. user will received a OTP code send by PHPMailer.
+
+User can reset his/her password, user will received a new url link send by PHPMailer to reset his/her new password.
+
+How to use this source code:
+requirement:
+1) install xampp
+here is the link to install xampp
+apachefriends.org/index.html
+
+First step:
+1) download this repo 
+2) create a folder name as login-System -> extract to your xampp folder -> htdocs -> on folder login-System
+3) go to phpmyadmin -> create database loginsystem
+4) copy all the query command from login.sql -> paste it under the database loginsystem sql.
+5) copy the path of index.html -> paste the link -> before C:\xampp\htdocs\login-System\login-system-main\index.php -> modify to http://localhost/login-System/login-system-main/index.php
+6) on the less secure on your email account which use to send out the email.
+7) modify the account and password under two file -> recover_psw.php and register.php
+8) now you are ready to run your login system project !
+9) Happy Coding
+
+More details refer to this youtube video with clear explanation
+https://youtu.be/-1SJPDL-9o8
